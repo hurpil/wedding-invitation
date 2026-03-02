@@ -38,7 +38,7 @@ export const GuestBook = () => {
     if (SERVER_URL) {
       try {
         const res = await fetch(
-          `${SERVER_URL}/guestbook?offset=${0}&limit=${3}`,
+          `${SERVER_URL}/api/guestbook?offset=${0}&limit=${3}`,
         )
         if (res.ok) {
           const data = await res.json()
@@ -237,7 +237,7 @@ const WriteGuestBookModal = ({ loadPosts }: { loadPosts: () => void }) => {
             return
           }
 
-          const res = await fetch(`${SERVER_URL}/guestbook`, {
+          const res = await fetch(`${SERVER_URL}/api/guestbook`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -310,7 +310,7 @@ const AllGuestBookModal = ({
       try {
         const offset = page * POSTS_PER_PAGE
         const res = await fetch(
-          `${SERVER_URL}/guestbook?offset=${offset}&limit=${POSTS_PER_PAGE}`,
+          `${SERVER_URL}/api/guestbook?offset=${offset}&limit=${POSTS_PER_PAGE}`,
         )
         if (res.ok) {
           const data = await res.json()
@@ -477,7 +477,7 @@ const DeleteGuestBookModal = ({
             return
           }
 
-          const result = await fetch(`${SERVER_URL}/guestbook`, {
+          const result = await fetch(`${SERVER_URL}/api/guestbook`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ id: postId, password }),
