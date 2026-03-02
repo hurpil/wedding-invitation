@@ -5,7 +5,6 @@
   "author": "Pil Hur <hurpil1512@gmail.com>",
   "license": "MIT",
   "private": true,
-  "homepage": "www.khohur.org",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
