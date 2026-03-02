@@ -32,6 +32,7 @@ export const WEDDING_HALL_POSITION = [127.0943159, 37.4826668]
 // 예: https://map.naver.com/p/entry/place/13321741 -> 13321741
 export const NMAP_PLACE_ID = 1603891367
 
+
 // 카카오 지도의 웨딩홀 장소 ID
 // 카카오 지도 웹페이지에서 웨딩홀 검색 후 해당 장소에서 상세보기 클릭 시 URL에서 확인 가능.
 // 예: https://place.map.kakao.com/8634826 -> 8634826
