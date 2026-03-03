@@ -3,7 +3,6 @@ import { STATIC_ONLY } from "../../env"
 import { Button } from "../button"
 import { LazyDiv } from "../lazyDiv"
 import { useModal } from "../modal"
-import { AttendanceInfo } from "./attendance"
 
 export const Information1 = () => {
   return (
@@ -168,7 +167,6 @@ export const Information = () => {
     <LazyDiv className="card information">
       <Information1 />
       <Information2 />
-      <AttendanceInfo />
     </LazyDiv>
   )
 }
