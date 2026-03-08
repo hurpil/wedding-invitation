@@ -1,4 +1,4 @@
-ShareButtonimport { Fragment } from "react/jsx-runtime"
+import { Fragment } from "react/jsx-runtime"
 import {
   BRIDE_FULLNAME,
   BRIDE_INFO,
