@@ -1,4 +1,4 @@
-import { Fragment } from "react/jsx-runtime"
+ShareButtonimport { Fragment } from "react/jsx-runtime"
 import {
   BRIDE_FULLNAME,
   BRIDE_INFO,
@@ -22,7 +22,6 @@ export const Invitation = () => {
   return (
     <LazyDiv className="card invitation">
       <h2 className="english">Invitation</h2>
-
       <div className="break" />
 
       <div className="content">축복과도 같은 인연을 만나</div>
@@ -30,11 +29,10 @@ export const Invitation = () => {
       <div className="content">행복한 날 소중한 분들 앞에서</div>
       <div className="content">평생을 약속하고 싶습니다.</div>
       <div className="break" />
-
-      <div className="content">Une rencontre bénie a croisé notre chemin,</div>
-      <div className="content">et de ce lien est né un miracle.</div>
-      <div className="content">En ce jour heureux, entourés des êtres qui nous sont précieux,</div>
-      <div className="content">nous aimerions nous promettre l’un à l’autre pour la vie.</div>
+      <div className="content">Par cette rencontre bénie</div>
+      <div className="content">Nous souhaitons proclamer devant vous,</div>
+      <div className="content">Chères familles et chers amis,</div>
+      <div className="content">Notre promesse dans le bonheur et l’amour.</div>
 
       <div className="break" />
 
