@@ -1,6 +1,6 @@
 //import coverImage from "./cover.png"
 //import coverImage from "./resize_DSC_1372_1.jpg"
-import covertImage from "./thumbnail.jpg"
+import coverImage from "./thumbnail.jpg"
 import image1 from "./resize_DSC_1361_1.jpg"
 import image2 from "./resize_DSC_1290.jpg"
 import image3 from "./resize_DSC_1323.jpg"
