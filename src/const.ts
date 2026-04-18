@@ -64,10 +64,4 @@ export const GROOM_INFO = [
     phone: "010-9299-9540",
     account: "국민은행 446602-04-025528",
   },
-  {
-    relation: "신랑 아버지",
-    name: GROOM_FATHER,
-    phone: "010-6522-1266",
-    account: "국민은행 354601-04-031984",
-  },
 ]
