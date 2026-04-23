@@ -143,7 +143,12 @@ export const Information2 = () => {
         >
           신부측 계좌번호 보기
         </Button>
+      <br />
+      <span className="content"><br />화환은 정중히 거절하겠습니다.</span>
+      <br />
+      <span className="content">따뜻한 축하의 마음만 소중히 받겠습니다.</span>
       </div>
+      
     </>
   )
 }
